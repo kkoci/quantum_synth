@@ -80,17 +80,12 @@ This is a basic scaffold. You'll want to add:
 - WebSocket support for real-time updates
 
 
-  Each scheme has its own "sonic fingerprint":
+Each scheme has its own "sonic fingerprint":
 
-  ┌────────┬───────────────┬─────────────┬───────────────────────────────────────┐
-  │ Scheme │     Speed     │ Noise Level │               Character               │
-  ├────────┼───────────────┼─────────────┼───────────────────────────────────────┤
-  │ QPAM   │ Fast (~10s)   │ High        │ Clean quantum noise, simple artifacts │
-  ├────────┼───────────────┼─────────────┼───────────────────────────────────────┤
-  │ SQPAM  │ Slow (~10min) │ Very High   │ More complex quantum degradation      │
-  ├────────┼───────────────┼─────────────┼───────────────────────────────────────┤
-  │ QSM    │ Medium-Slow   │ Medium-High │ Different noise texture               │
-  ├────────┼───────────────┼─────────────┼───────────────────────────────────────┤
-  │ MQSM   │ Slow (~1min)  │ Lower       │ Pitch distortion + stereo effects     │
-  └────────┴───────────────┴─────────────┴───────────────────────────────────────┘
+| Scheme | Speed | Noise Level | Character |
+|--------|-------|-------------|-----------|
+| QPAM | Fast (~10s) | High | Clean quantum noise, simple artifacts |
+| SQPAM | Slow (~10min) | Very High | More complex quantum degradation |
+| QSM | Medium-Slow | Medium-High | Different noise texture |
+| MQSM | Slow (~1min) | Lower | Pitch distortion + stereo effects |
 
