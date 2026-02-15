@@ -1,0 +1,23 @@
+# Django and REST Framework
+Django==5.0.1
+djangorestframework==3.14.0
+django-cors-headers==4.3.1
+
+# Async task processing
+celery==5.3.6
+redis==5.0.1
+
+# Quantum audio processing
+quantumaudio==0.2.0
+qiskit==1.3.1
+numpy==1.26.4
+
+# Audio processing
+soundfile==0.12.1
+librosa==0.10.2.post1
+
+# Environment variables
+python-dotenv==1.0.1
+
+# Production server (optional)
+gunicorn==21.2.0
